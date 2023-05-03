@@ -1,4 +1,4 @@
-# Getting Support
+# Support
 
 Stakater provides support to our customers via our [Service Desk Portal](https://stakater-cloud.atlassian.net/servicedesk/customer/portals).
 
