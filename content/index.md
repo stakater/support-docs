@@ -50,7 +50,7 @@ Request Priority | Description of the Request Priority
 
 Request Priority | Initial Response Time | Ongoing Response
 --- | --- | ---
-`Highest` | 2 business hours | 2 business hours or as agreed 
+`Highest` | 2 business hours | 2 business hours or as agreed
 `High` | 4 business hours | 4 business hours or as agreed
 `Medium` | 2 business day | 2 business days or as agreed
 `Low` | 4 business days | 4 business days or as agreed
@@ -71,7 +71,7 @@ We use various communication channels to keep you updated
 
 ## Hours of Availability
 
-The support engineering team are normally available on business hours or as agreed in a support contract. 
+The support engineering team are normally available on business hours or as agreed in a support contract.
 Business hours are always viewed with the Central European Timezone, hours may vary with summer and winter time.
 
 Active business hours, unless otherwise stated: 06:00 to 18:00
@@ -79,7 +79,7 @@ Active business hours, unless otherwise stated: 06:00 to 18:00
 ## Ongoing Response
 
 Depending on severity of your issue we will keep you in the loop and inform you of our progress. With high severity cases we would also provide our next steps as well as next follow up, either via the support engineering team or, if applicable, via your designated customer success manager.
-Prefered method of contact is stated in your support contract or otherwise through any of the stated communication channels.
+Preferred method of contact is stated in your support contract or otherwise through any of the stated communication channels.
 
 ## Proactive Support
 
