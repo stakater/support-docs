@@ -46,26 +46,53 @@ Request Priority | Description of the Request Priority
 `Low` | This category includes: Requests for information and other matters, requests regarding extending the functionality of the Kubernetes Platform, performance issues that have no effect on functionality, Kubernetes platform flaws with known solutions or moderate impact on functionality. Example: Issues with extension availability.
 `Lowest` | Trivial problem with little or no impact on progress
 
-## Response Times
+## Production Support Terms of Service
 
-Stakater strives to reach certain response and resolution times for each ticket. The response time is the maximum time it should take for Stakater Support to make an initial response to the ticket. The resolution time is the maximum time it should take for Stakater to assign the ticket a resolution.
-
-Request Priority | Time to first response | Time to resolution
+Request Priority | Initial Response Time | Ongoing Response
 --- | --- | ---
-`Highest` | 2 h | 1 day
-`High` | 1 day | 2 days
-`Medium` | 3 days | 3 days
-`Low` | 4 days | 4 days
-`Lowest` | 5 days | 5 days
+`Highest` | 2 business hours | 2 business hours or as agreed 
+`High` | 4 business hours | 4 business hours or as agreed
+`Medium` | 2 business day | 2 business days or as agreed
+`Low` | 4 business days | 4 business days or as agreed
+`Lowest` | 5 business days | 5 business days or as agreed
 
-## Resolution Time
+## Initial Response Time and Our Commitment to You
 
-The time taken to resolve the problem does not include the time required to gain access to the Customer's environment or the data needed to verify and reproduce the problem. The calculation of time resumes as soon as the Customer provides the requested access to the environment or data. The Engineer on Duty has the right to downgrade the priority if the Customer fails to provide access to the environment or data within three hours of the Engineer's request.
+Once we've addressed your initial support request, our commitment doesn't end there. We believe in providing continuous support to ensure that your issue is resolved satisfactorily. Our ongoing response framework is designed to keep you informed and confident that we're working diligently to address your needs.
 
-## Feedback
+## Support Channels
 
-Stakater adhere to openness in relations and directness in communications, so feedback is of great importance to us. Please, do not hesitate to share your comments and suggestions with us.
+We use various communication channels to keep you updated
 
-Report any service-related discomfort as a support ticket. Company executives and owners would study it carefully. As a rule, Stakater recommend discussing and solving all problems directly with the Engineer on Duty first since they have the best knowledge of the task at hand and understands the context. However, in extreme situations, you can also contact company executives directly. Please note that in this case, additional time might be required for executives to study the problem and details, thus delaying the resolution of the issue. Still, if you feel there is a justified need to do so, do not hesitate to contact executives.
+- Email: For documenting and providing detailed updates and progress reports
+- Phone Calls: When immediate or more personal communication is necessary
+- Chat: For quick, real-time interactions during troubleshooting, foremost Slack
+- Support Portal: Where you can log in at any time to view the latest updates, add information or ask questions
 
-Stakater commend you for choosing us, and Stakater sincerely hope for mutually beneficial, close, and long-standing cooperation!
+## Hours of Availability
+
+The support engineering team are normally available on business hours or as agreed in a support contract. 
+Business hours are always viewed with the Central European Timezone, hours may vary with summer and winter time.
+
+Active business hours, unless otherwise stated: 06:00 to 18:00
+
+## Ongoing Response
+
+Depending on severity of your issue we will keep you in the loop and inform you of our progress. With high severity cases we would also provide our next steps as well as next follow up, either via the support engineering team or, if applicable, via your designated customer success manager.
+Prefered method of contact is stated in your support contract or otherwise through any of the stated communication channels.
+
+## Proactive Support
+
+Our engineering support team doesn't just react to issues; we anticipate and work proactively to prevent them. We'll analyze trends, provide recommendations and in some cases, implement preventative measures to avoid future disruptions.
+
+## Feedback Loop
+
+Your feedback during and after the resolution process helps us improve. We'll check in with you to ensure your satisfaction and learn how we can enhance our support.
+
+## Resolution and Review
+
+Once an issue is resolved, we'll conduct a review with you to ensure everything is working as it should. We’ll also discuss any lessons learned and potential improvements for both parties.
+
+## Our Promise
+
+We are here to support you, not just until the problem is solved, but to ensure that your experience is as seamless as possible. Your success is our success and through our ongoing response efforts, we pledge to uphold the highest standards of customer service and satisfaction.
