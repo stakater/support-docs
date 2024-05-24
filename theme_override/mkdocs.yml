@@ -2,28 +2,14 @@ site_name: Stakater Support
 docs_dir: content
 site_url: https://support.stakater.com/
 repo_url: https://github.com/stakater/support-docs
-edit_uri: blob/main/content/
-use_directory_urls: false
+
 theme:
-  name: material
   logo: assets/images/favicon.svg
   favicon: assets/images/favicon.svg
   custom_dir: dist/_theme
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
   - index.md
 
 plugins:
-  - search
-  - glightbox
   - mermaid2
-  - include-markdown

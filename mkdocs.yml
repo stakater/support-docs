@@ -31,17 +31,12 @@ markdown_extensions:
     - class: mermaid
       format: !!python/name:pymdownx.superfences.fence_code_format ''
       name: mermaid
-- attr_list
-- pymdownx.emoji:
-    emoji_generator: !!python/name:materialx.emoji.to_svg ''
-    emoji_index: !!python/name:materialx.emoji.twemoji ''
 nav:
 - index.md
 plugins:
 - search
 - glightbox
 - mermaid2
-- include-markdown
 repo_url: https://github.com/stakater/support-docs
 site_name: Stakater Support
 site_url: https://support.stakater.com/
