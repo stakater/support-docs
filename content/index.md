@@ -57,10 +57,10 @@ Request Priority | Description of the Request Priority
 
 Request Priority | Initial Response Time | Ongoing Response
 --- | --- | ---
-`Highest` | 2 business hours | 2 business hours or as agreed
-`High` | 4 business hours | 4 business hours or as agreed
-`Medium` | 2 business day | 2 business days or as agreed
-`Low` | 4 business days | 4 business days or as agreed
+`Highest` | 30 business minutes | 2 business hours or as agreed
+`High` | 2 business hours | 4 business hours or as agreed
+`Medium` | 4 business hours | 2 business days or as agreed
+`Low` | 24 business hours | 4 business days or as agreed
 `Lowest` | 5 business days | 5 business days or as agreed
 
 ## Initial Response Time and Our Commitment to You
