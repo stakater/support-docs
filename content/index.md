@@ -34,6 +34,13 @@ As a registered user you can go to the [Service Desk Portal](https://stakater-cl
 
 ![image](./images/signup-support-6.png)
 
+## Share Request
+
+Only you as a creator of a request are permitted to view your request by default. To share a request with another user:
+
+1. As the creator of the request, visit the request page
+2. Specify the email of the other user to be added under the `Shared with` section
+
 ## Priorities
 
 You as a customer can set the initial priority for a Request by specifying the appropriate priority: `Critical`, `High`, `Medium` or `Low`. The Engineer on Duty has the right to adjust it at their own discretion based on the rules below:
