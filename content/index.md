@@ -36,25 +36,23 @@ As a registered user you can go to the [Service Desk Portal](https://stakater-cl
 
 ## Priorities
 
-You as a customer can set the initial priority for a Request by specifying the appropriate priority: `Highest`, `High`, `Medium`, `Low`, or `Lowest`. The Engineer on Duty has the right to adjust it at their own discretion based on the rules below:
+You as a customer can set the initial priority for a Request by specifying the appropriate priority: `Critical`, `High`, `Medium` or `Low`. The Engineer on Duty has the right to adjust it at their own discretion based on the rules below:
 
 Request Priority | Description of the Request Priority
 --- | ---
-`Highest` | Large-scale failure or complete unavailability of OpenShift or Customer's business application deployed on OpenShift. The `Highest` priority will be lowered to `High` if there is a workaround for the problem. Example: Router availability issues, synthetic monitoring availability issues.
+`Critical` |  Large-scale failure or complete unavailability of OpenShift or Customer's business application deployed on OpenShift. The `Critical` priority will be lowered to `High` if there is a workaround for the problem. Example: Router availability issues, synthetic monitoring availability issues.
 `High` | Partial degradation of OpenShift core functionality or Customer's business application functionality with potential adverse impact on long-term performance. The `High` priority will be lowered to `Medium` if there is a workaround for the problem. Example: Node Group and Control Plane availability problems.
 `Medium` | Partial, non-critical loss of functionality of OpenShift or the Customer's business application. This category also includes major bugs in OpenShift that affect some aspects of the Customer's operations and have no known solutions. The `Medium` priority will be lowered to `Low` if there is a workaround for the problem. This priority is assigned to Requests by default. If the Request does not have an priority set by the Customer, it will be assigned the default priority `Medium`. Example: Problems with the monitoring availability and Pod autoscaling.
 `Low` | This category includes: Requests for information and other matters, requests regarding extending the functionality of the Kubernetes Platform, performance issues that have no effect on functionality, Kubernetes platform flaws with known solutions or moderate impact on functionality. Example: Issues with extension availability.
-`Lowest` | Trivial problem with little or no impact on progress
 
 ## Production Support Terms of Service
 
 Request Priority | Initial Response Time | Ongoing Response
 --- | --- | ---
-`Highest` | 2 business hours | 2 business hours or as agreed
+`Critical` | 2 business hours | 2 business hours or as agreed
 `High` | 4 business hours | 4 business hours or as agreed
 `Medium` | 2 business day | 2 business days or as agreed
-`Low` | 4 business days | 4 business days or as agreed
-`Lowest` | 5 business days | 5 business days or as agreed
+`Low` | 5 business days | 5 business days or as agreed
 
 ## Initial Response Time and Our Commitment to You
 
