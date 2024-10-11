@@ -9,3 +9,6 @@ theme:
   favicon: assets/images/favicon.svg
 nav:
   - index.md
+  - signup.md
+  - channels.md
+  - responsetimes.md
