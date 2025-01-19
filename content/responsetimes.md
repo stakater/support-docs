@@ -11,15 +11,6 @@ Request Priority | Description of the Request Priority
 `Medium` | Partial, non-critical loss of functionality of OpenShift or the Customer's business application. This category also includes major bugs in OpenShift that affect some aspects of the Customer's operations and have no known solutions. The `Medium` priority will be lowered to `Low` if there is a workaround for the problem. This priority is assigned to Requests by default. If the Request does not have an priority set by the Customer, it will be assigned the default priority `Medium`. Example: Problems with the monitoring availability and Pod autoscaling.
 `Low` | This category includes: Requests for information and other matters, requests regarding extending the functionality of the Kubernetes Platform, performance issues that have no effect on functionality, Kubernetes platform flaws with known solutions or moderate impact on functionality. Example: Issues with extension availability.
 
-## Production Support Terms of Service
-
-Request Priority | Initial Response Time | Ongoing Response
---- | --- | ---
-`Critical` | 2 business hours | 2 business hours or as agreed
-`High` | 4 business hours | 4 business hours or as agreed
-`Medium` | 2 business day | 2 business days or as agreed
-`Low` | 5 business days | 5 business days or as agreed
-
 ## Initial Response Time and Our Commitment to You
 
 Once we've addressed your initial support request, our commitment doesn't end there. We believe in providing continuous support to ensure that your issue is resolved satisfactorily. Our ongoing response framework is designed to keep you informed and confident that we're working diligently to address your needs.
