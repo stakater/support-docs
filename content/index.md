@@ -1,10 +1,8 @@
 # Support
 
-Stakater operates 24/7/365 monitoring on Stakater Services and Stakater's personnel will be automatically alerted on any service anomalies. Stakater's personnel will commence work on any issues in system operations requiring manual intervention without delay.
+Stakater monitors Stakater Services and Stakater's personnel will be automatically alerted on any service anomalies. Stakater's personnel will commence work on any issues in system operations requiring manual intervention without delay.
 
 Our engineering support team doesn't just react to issues; we anticipate and work proactively to prevent them. We'll analyze trends, provide recommendations and in some cases, implement preventative measures to avoid future disruptions.
-
-Responses are provided on a best-effort basis during the same or next business day.
 
 ## Our Promise
 
@@ -25,17 +23,17 @@ Request Priority | Description of the Request Priority
 
 Stakater offers three levels of support tiers, as described in the table below.
 
-| | Essential | Advanced | Premium |
-| - | - | - | - |
-| Use case | Basic minimum support | Development support | Production and critical workload support |
-| Support hours | 24x5 | 24x7 | 24x7 |
-| Modes of support | Ticket | Ticket, Video | Ticket, Video, Chat, Phone |
-| Support response team | Regular | Specialized | Dedicated |
-| Recommendations for improvements | No | No | Yes |
-| Training and enablement sessions | No | No | Yes |
-| Technical Account Manager (TAM) | No | No | Yes |
-| Key Account Manager (KAM) | No | No | Yes |
-| Ticket response times - Critical | 12h | 2h | 1h |
-| Ticket response times - High | 12h | 4h | 2h |
-| Ticket response times - Medium | 24h | 8h | 4h |
-| Ticket response times - Low | 24h | 24h | 24h |
+ | Essential | Advanced | Premium
+--- | --- | --- | ---
+Use case | Basic minimum support | Development support | Production and critical workload support
+Support hours | 24x5x365 | 24x7x365 | 24x7x365
+Modes of support | Ticket | Ticket, Video | Ticket, Video, Chat, Phone
+Support response team | Regular | Specialized | Dedicated
+Recommendations for improvements | No | No | Yes
+Training and enablement sessions | No | No | Yes
+Technical Account Manager (TAM) | No | No | Yes
+Key Account Manager (KAM) | No | No | Yes
+Ticket response times - Critical | 12h | 2h | 1h
+Ticket response times - High | 12h | 4h | 2h
+Ticket response times - Medium | 24h | 8h | 4h
+Ticket response times - Low | 24h | 24h | 24h
