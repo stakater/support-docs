@@ -1,15 +1,8 @@
-# Response Times
+# Response Framework
 
 ## Initial Response Time and Our Commitment to You
 
 Once we've addressed your initial support request, our commitment doesn't end there. We believe in providing continuous support to ensure that your issue is resolved satisfactorily. Our ongoing response framework is designed to keep you informed and confident that we're working diligently to address your needs.
-
-## Hours of Availability
-
-The support engineering team are normally available on business hours or as agreed in a support contract.
-Business hours are always viewed with the Central European Timezone, hours may vary with summer and winter time.
-
-Active business hours, unless otherwise stated: 06:00 to 18:00
 
 ## Ongoing Response
 
