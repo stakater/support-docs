@@ -23,7 +23,7 @@ Request Priority | Description of the Request Priority
 
 Stakater offers three levels of support tiers, as described in the table below.
 
- | Essential | Advanced | Premium
+Feature | Essential | Advanced | Premium
 --- | --- | --- | ---
 Use case | Basic minimum support | Development support | Production and critical workload support
 Support hours | 24x5x365 | 24x7x365 | 24x7x365
