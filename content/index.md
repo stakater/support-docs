@@ -33,6 +33,7 @@ Stakater offers three levels of support tiers, as described in the table below.
 | Training and enablement sessions | No | No | Yes |
 | Technical Account Manager (TAM) | No | No | Yes |
 | Key Account Manager (KAM) | No | No | Yes |
+| Incident Response SLA | Incident response within 1 day | Incident response within 2 h | Incident response within 30 min |
 | Ticket response times - Critical | 12h | 2h | 1h |
 | Ticket response times - High | 12h | 4h | 2h |
 | Ticket response times - Medium | 24h | 8h | 4h |
