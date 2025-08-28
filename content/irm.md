@@ -4,7 +4,7 @@ The SRE team at Stakater has both the responsibility and the authority to resolv
 
 Incidents are anomalous conditions that result in — or may lead to — service degradation or outages. These events may require human intervention to avert disruptions or restore service to operational status. Incidents should always be given immediate attention.
 
-Stakater's incident management system (IMS) is based on [Google's IMS](https://sre.google/sre-book/managing-incidents/) which in turn is based on the [Incident Command System](https://www.fema.gov/emergency-managers/nims).
+Stakater's incident management system (IMS) is based on [Google's IMS](https://sre.google/sre-book/managing-incidents/).
 
 The goal of incident management is to organize chaos into swift incident resolution. To that end, incident management provides:
 
