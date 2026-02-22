@@ -2,15 +2,6 @@
 
 Stakater provides structured, enterprise-grade support for all Stakater products and managed services.
 
-Our support model is designed to be:
-
-* Clear
-* Predictable
-* Consistent across products
-* Aligned with production-grade operational needs
-
-Whether you are running development environments or business-critical workloads, our support plans ensure you receive the right level of responsiveness and engagement.
-
 ## Support Plans
 
 Stakater offers two support plans:
@@ -83,13 +74,13 @@ To request support, visit:
 
 For guidance on what information to include when opening a ticket, see [**How to Request Support**](./hrs.md).
 
-## Our Approach
+## ## Frequently Asked Questions
 
-We believe strong support is not only about response time — it is about ownership, clarity, and operational maturity.
+For common questions regarding:
 
-Two plans.
-Clear SLAs.
-Defined escalation paths.
-No unnecessary complexity.
+* Business-hours limitations
+* Response vs resolution time
+* Severity adjustments
+* Premium vs Standard differences
 
-If you are unsure which plan fits your workload, contact the Stakater team for guidance.
+Please refer to the [**FAQ**](./faq.md) page.

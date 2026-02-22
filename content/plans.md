@@ -11,18 +11,20 @@ All severity definitions and SLA structures are consistent across products to en
 
 ## 1. Severity Definitions
 
-Severity is determined based on business impact.
+All support plans use a unified four-level severity framework:
 
-| Severity          | Definition                                                                                                                          |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| **P1 – Critical** | Production outage or severe business impact. Service is unavailable or unusable. No viable workaround exists.                       |
-| **P2 – High**     | Major degradation of production service. Business impact is significant but partial. A workaround may exist but is not sustainable. |
-| **P3 – Medium**   | Limited impact. Non-critical functionality affected. A reasonable workaround exists.                                                |
-| **P4 – Low**      | Information requests, configuration guidance, minor issues, or enhancement questions. No production impact.                         |
+* P1 – Critical
+* P2 – High
+* P3 – Medium
+* P4 – Low
 
-If no severity is specified, tickets default to **P3 – Medium**.
+Severity definitions and classification criteria are documented in the [**Severity & Response Framework**](./srf.md) section.
 
-Stakater reserves the right to adjust severity based on actual impact.
+Severity determines response time targets and escalation handling.
+
+If no severity is specified when submitting a request, it defaults to **P3 – Medium**.
+
+Stakater reserves the right to adjust severity if misclassified based on actual business impact.
 
 ## 2. Response Time Matrix
 
