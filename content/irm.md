@@ -100,17 +100,17 @@ Formal declaration triggers role assignment and structured communication.
 When an incident occurs:
 
 1. Notify the SRE on-call engineer.
-2. Assign Incident Commander (IC).
-3. IC defines:
+1. Assign Incident Commander (IC).
+1. IC defines:
    * Impact
    * Scope
    * Severity (P1–P4)
-4. Create an Incident ticket in the support system.
-5. Assign Communications Lead (CL) and Operations Lead (OL).
-6. Begin structured investigation and mitigation.
-7. Provide periodic customer updates (frequency based on severity).
-8. Escalate internally if required.
-9. Maintain role continuity during shift transitions.
+1. Create an Incident ticket in the support system.
+1. Assign Communications Lead (CL) and Operations Lead (OL).
+1. Begin structured investigation and mitigation.
+1. Provide periodic customer updates (frequency based on severity).
+1. Escalate internally if required.
+1. Maintain role continuity during shift transitions.
 
 The primary objective is to restore service as quickly as possible.
 

@@ -58,7 +58,7 @@ Slack and phone access under Premium must be agreed in advance.
 | **Standard** | 8x5 Business Hours |
 | **Premium**  | 24x7x365           |
 
-Premium includes round-the-clock support across all severities.
+Premium includes round-the-clock support across all priorities.
 
 ## 5. Enterprise Support Differentiation
 

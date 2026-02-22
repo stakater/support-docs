@@ -42,10 +42,10 @@ Your account must be registered using your official company email address.
 Once registered:
 
 1. Log in to the Support Portal.
-2. Select the appropriate request type.
-3. Provide a clear summary and detailed description.
-4. Select the appropriate severity (P1–P4).
-5. Submit the request.
+1. Select the appropriate request type.
+1. Provide a clear summary and detailed description.
+1. Select the appropriate severity (P1–P4).
+1. Submit the request.
 
 Support requests can be created directly from the portal dashboard:
 
@@ -86,14 +86,14 @@ By default, only the ticket creator can view a request.
 To share it:
 
 1. Open the request.
-2. Add additional users in the **Shared with** field.
-3. Those users will gain access and receive notifications.
+1. Add additional users in the **Shared with** field.
+1. Those users will gain access and receive notifications.
 
 ## 6. Premium Customers – Critical Incident Escalation
 
 If you are a **Premium** customer reporting a **P1 – Critical** issue:
 
 1. Submit the ticket immediately via the Support Portal.
-2. Use agreed emergency communication channels (e.g., Slack or phone) if applicable.
+1. Use agreed emergency communication channels (e.g., Slack or phone) if applicable.
 
 Escalation begins once the P1 ticket is logged.
