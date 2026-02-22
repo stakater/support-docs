@@ -1,40 +1,86 @@
-# Support
+# Overview
 
-Stakater monitors Stakater Services and Stakater's personnel will be automatically alerted on any service anomalies. Stakater's personnel will commence work on any issues in system operations requiring manual intervention without delay.
+Stakater provides structured, enterprise-grade support for all Stakater products and managed services.
 
-Our engineering support team doesn't just react to issues; we anticipate and work proactively to prevent them. We'll analyze trends, provide recommendations and in some cases, implement preventative measures to avoid future disruptions.
+## Support Plans
 
-## Our Promise
+Stakater offers two support plans:
 
-We are here to support you, not just until the problem is solved, but to ensure that your experience is as seamless as possible. Your success is our success and through our ongoing response efforts, we pledge to uphold the highest standards of customer service and satisfaction.
+### **Standard**
 
-## Priorities
+Business-hours support designed for development environments, non-critical workloads, and cost-sensitive operations.
 
-You as a customer can set the initial priority for a Request by specifying the appropriate priority: `P1 - Critical`, `P2 - High`, `P3 - Medium` or `P4 - Low`. The Engineer on Duty has the right to adjust it at their own discretion based on the rules below:
+### **Premium**
 
-| Request Priority | Description of the Request Priority |
-| --- | --- |
-| `P1 - Critical` |  Large-scale failure or complete unavailability of OpenShift or Customer's business application deployed on OpenShift. The `Critical` priority will be lowered to `High` if there is a workaround for the problem. Example: Router availability issues, synthetic monitoring availability issues. |
-| `P2 - High` | Partial degradation of OpenShift core functionality or Customer's business application functionality with potential adverse impact on long-term performance. The `High` priority will be lowered to `Medium` if there is a workaround for the problem. Example: Node Group and Control Plane availability problems. |
-| `P3 - Medium` | Partial, non-critical loss of functionality of OpenShift or the Customer's business application. This category also includes major bugs in OpenShift that affect some aspects of the Customer's operations and have no known solutions. The `Medium` priority will be lowered to `Low` if there is a workaround for the problem. This priority is assigned to Requests by default. If the Request does not have an priority set by the Customer, it will be assigned the default priority `Medium`. Example: Problems with the monitoring availability and Pod autoscaling. |
-| `P4 - Low` | This category includes: Requests for information and other matters, requests regarding extending the functionality of the Kubernetes Platform, performance issues that have no effect on functionality, Kubernetes platform flaws with known solutions or moderate impact on functionality. Example: Issues with extension availability. |
+24x7 support with priority handling, structured escalation, and proactive engagement — designed for production and business-critical workloads.
 
-## Support Tiers
+Each plan defines:
 
-Stakater offers three levels of support tiers, as described in the table below.
+* Support coverage window
+* Response time targets
+* Escalation model
+* Level of operational engagement
 
-| | Standard | Advanced | Premium |
-| --- | --- | --- | --- |
-| Use case | Basic minimum support | Development support | Production and critical workload support |
-| Support hours | 8x5 | 24x7x365 | 24x7x365 |
-| Modes of support | Ticket | Ticket, Video | Ticket, Video, Chat, Phone |
-| Support response team | Regular | Specialized | Dedicated |
-| Recommendations for improvements | No | No | Yes |
-| Training and enablement sessions | No | No | Yes |
-| Technical Account Manager (TAM) | No | No | Yes |
-| Key Account Manager (KAM) | No | No | Yes |
-| Incident Response SLA | Incident response within 1 day | Incident response within 2 h | Incident response within 30 min |
-| Ticket response times: P1 - Critical | 12h | 2h | 1h |
-| Ticket response times: P2 - High | 12h | 4h | 2h |
-| Ticket response times: P3 - Medium | 24h | 8h | 4h |
-| Ticket response times: P4 - Low | 24h | 24h | 24h |
+Full details are available in [**Support Plans & SLA**](plans.md).
+
+## Consistent Severity Model
+
+All Stakater products follow the same severity framework:
+
+* **P1 – Critical**
+* **P2 – High**
+* **P3 – Medium**
+* **P4 – Low**
+
+Severity is based on business impact and determines response targets and escalation paths.
+
+See [**Severity & Response Framework**](srf.md) for detailed definitions.
+
+## How We Handle Incidents
+
+Support is delivered by engineers with direct platform and product expertise.
+
+Our process includes:
+
+* Structured ticket intake
+* Clear severity classification
+* Defined response targets
+* Escalation based on impact
+* Transparent communication during critical incidents
+
+Premium support includes priority queue handling and structured escalation paths.
+
+See [**Incident Management Process**](./irm.md) for more information.
+
+## Scope of Support
+
+Stakater support focuses on:
+
+* Incident investigation and remediation
+* Product and platform troubleshooting
+* Configuration guidance
+* Operational best practices
+
+Support does not replace professional services or custom development engagements.
+
+See [**Service Scope & Responsibilities**](./ssr.md) for details.
+
+## Getting Started
+
+All support requests are submitted via the **Support Portal** to ensure proper tracking and SLA compliance.
+
+To request support, visit:
+👉 [https://stakater-cloud.atlassian.net/servicedesk/customer/portals](https://stakater-cloud.atlassian.net/servicedesk/customer/portals)
+
+For guidance on what information to include when opening a ticket, see [**How to Request Support**](./hrs.md).
+
+## ## Frequently Asked Questions
+
+For common questions regarding:
+
+* Business-hours limitations
+* Response vs resolution time
+* Severity adjustments
+* Premium vs Standard differences
+
+Please refer to the [**FAQ**](./faq.md) page.

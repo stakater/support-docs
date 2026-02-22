@@ -9,7 +9,9 @@ theme:
   favicon: assets/images/favicon.svg
 nav:
   - index.md
-  - signup.md
-  - channels.md
-  - responsetimes.md
+  - plans.md
+  - srf.md
   - irm.md
+  - hrs.md
+  - ssr.md
+  - faq.md
