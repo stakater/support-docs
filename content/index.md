@@ -30,7 +30,7 @@ Each plan defines:
 * Escalation model
 * Level of operational engagement
 
-Full details are available in **Support Plans & SLA**.
+Full details are available in [**Support Plans & SLA**](plans.md).
 
 ## Consistent Severity Model
 
@@ -43,7 +43,7 @@ All Stakater products follow the same severity framework:
 
 Severity is based on business impact and determines response targets and escalation paths.
 
-See **Severity & Response Framework** for detailed definitions.
+See [**Severity & Response Framework**](srf.md) for detailed definitions.
 
 ## How We Handle Incidents
 
@@ -59,7 +59,7 @@ Our process includes:
 
 Premium support includes priority queue handling and structured escalation paths.
 
-See **Incident Management Process** for more information.
+See [**Incident Management Process**](./irm.md) for more information.
 
 ## Scope of Support
 
@@ -72,16 +72,16 @@ Stakater support focuses on:
 
 Support does not replace professional services or custom development engagements.
 
-See **Service Scope & Responsibilities** for details.
+See [**Service Scope & Responsibilities**](./ssr.md) for details.
 
 ## Getting Started
 
 All support requests are submitted via the **Support Portal** to ensure proper tracking and SLA compliance.
 
 To request support, visit:
-👉 *[Insert Support Portal Link]*
+👉 [https://stakater-cloud.atlassian.net/servicedesk/customer/portals](https://stakater-cloud.atlassian.net/servicedesk/customer/portals)
 
-For guidance on what information to include when opening a ticket, see **How to Request Support**.
+For guidance on what information to include when opening a ticket, see [**How to Request Support**](./hrs.md).
 
 ## Our Approach
 
