@@ -1,87 +1,162 @@
 # Incident Response Management
 
-The SRE team at Stakater has both the responsibility and the authority to resolve incidents.
+Stakater follows a structured Incident Response Management (IRM) process to ensure swift, coordinated resolution of service disruptions.
 
-Incidents are anomalous conditions that result in — or may lead to — service degradation or outages. These events may require human intervention to avert disruptions or restore service to operational status. Incidents should always be given immediate attention.
+Our approach is inspired by industry best practices, including Google’s Incident Management System (IMS), and is adapted to fit Stakater’s operational model.
 
-Stakater's incident management system (IMS) is based on [Google's IMS](https://sre.google/sre-book/managing-incidents/).
+The primary goal of incident management is to restore service stability as quickly and safely as possible while maintaining clear communication and accountability.
 
-The goal of incident management is to organize chaos into swift incident resolution. To that end, incident management provides:
+## 1. What Is an Incident?
 
-1. Well-defined roles and responsibilities and workflow for members of the incident team
-1. Control points to manage the flow information and the resolution path
-1. A root cause analysis where follow-up actions, lessons, and techniques are extracted and shared
+An incident is any unplanned event that:
 
-## Tools
+* Causes service degradation or outage, or
+* Has the potential to impact customer SLA or production stability
 
-Tools used to facilitate incident management at Stakater:
+Incidents require immediate attention and structured coordination.
 
-* `Alertmanager` - for creating alerts from Prometheus
-* `Grafana OnCall` - for paging of alerts
-* `Slack` - for asynchronous communication
-* `Google Meet` - for synchronous communication
+## 2. Incident Authority & Ownership
 
-## Incident Ownership
+The Stakater SRE team has both the responsibility and the authority to manage and resolve incidents.
 
-By default, the SRE on-call is the owner of the incident.
+By default, the **SRE on-call engineer** assumes ownership of the incident until roles are formally assigned.
 
-## Roles and Responsibilities
+Ownership may be transferred during shift handover while maintaining continuity.
 
-Clear role responsibilities is important during an incident. Quick resolution requires focus and a clear hierarchy for delegation of tasks. The focus of incident response should be on resolving the incident, not on resolving confusion on who should do what - clear roles and responsibilities prevent confusions around accountability when an incident actually happens.
+## 3. Incident Management Principles
 
-The three main roles in incident response are:
+Our incident management process ensures:
 
-1. Incident Commander (IC) - leads the incident response
-    * Commands and coordinates the incident response
-    * Assumes all roles that have not been delegated yet
-    * Communicates effectively
-    * Escalates alerts: Notifies the team until someone acknowledges the alert and takes on the CL role
-1. Communications Lead (CL) - reports to the IC
-    * Public face of the incident response team
-    * Provides periodic updates to customers and the incident response team
-    * Manages inquiries about the incident
-1. Operations or Ops Lead (OL) - report to the IC
-    * Responds to the incident by applying operational tools to mitigate or resolve the incident
+* Clearly defined roles and responsibilities
+* Structured communication channels
+* Controlled information flow
+* Coordinated technical response
+* Root cause analysis and follow-up actions
 
-One person can be assigned to one or multiple roles. The most important thing is that all roles are needed to effectively deal with an incident.
+The focus during an incident is restoration of service — not assignment of blame.
+
+## 4. Incident Roles & Responsibilities
+
+Clear role separation ensures focus and efficiency during critical situations.
+
+### 1. Incident Commander (IC)
+
+Leads and coordinates the incident response.
+
+Responsibilities:
+
+* Declares and classifies the incident
+* Defines impact and severity
+* Assigns roles
+* Coordinates response efforts
+* Escalates internally as needed
+* Ensures structured handover if required
+
+### 2. Communications Lead (CL)
+
+Reports to the Incident Commander.
+
+Responsibilities:
+
+* Acts as primary communication interface
+* Provides structured updates to customers
+* Coordinates internal status reporting
+* Manages inbound inquiries during incident
+
+### 3. Operations Lead (OL)
+
+Reports to the Incident Commander.
+
+Responsibilities:
+
+* Investigates technical root cause
+* Applies operational tools and mitigation strategies
+* Coordinates with engineering teams
+* Executes remediation actions
+
+One individual may assume multiple roles depending on incident size and team availability.
 
 ```mermaid
 flowchart TD
-    CL --> |Gathers incident response status|IC
-    CL --> |Updates customer|Customer
-    CL --> |Updates internal team|Team
-    OL --> |Assists in the incident response|IC
-    classDef incident fill:#f00,color:white
-    IC --> |Leads the incident response|Incident:::incident
+    CL -->|Status Updates|IC
+    CL -->|Customer Communication|Customer
+    CL -->|Internal Updates|Team
+    OL -->|Technical Response|IC
+    IC -->|Leads|Incident
 ```
 
-## SOP (Standard Operating Procedure) for an Incident
+## 5. Incident Declaration Criteria
 
-An incident should be declared if any of the following is true:
+An incident is formally declared if any of the following apply:
 
-* Does the incident affect customers?
-* Does the incident affect the customer SLA?
+* Production workloads are affected
+* Customer SLA may be impacted
+* Service stability is at risk
 
-To resolve an incident:
+Formal declaration triggers role assignment and structured communication.
 
-1. Make SRE on-call aware of the incident
-1. Assign incident management roles
-1. IC defines the incident in terms of:
-    * Impact
-    * Frequency
-    * Severity
-1. IC creates an `Incident` ticket for the incident in the Stakater ticket system
-1. CL informs the customer and keeps them updated every hour of the progress
-    * Inform customer in external customer Slack channel
-    * Inform customer via email and add their manager on CC
-1. IC and OL begins understand why it happened
-    * Always replicate issues with incognito user to avoid using cached content
-1. IC and OL begins address it by involving other teams
-1. IC and OL hands over the ownership when needed if their shifts end
-1. CL creates a document to start analyzing the root cause
+## 6. Standard Operating Procedure (SOP)
 
-To do a post-mortem of an incident:
+When an incident occurs:
 
-1. CL informs the customer that the incident is resolved
-1. IC schedules a root cause analysis meeting, where every involved attends and collaboratively fills out the incident document
-1. IC creates sub-tasks in the incident ticket for follow-up actions
+1. Notify the SRE on-call engineer.
+2. Assign Incident Commander (IC).
+3. IC defines:
+   * Impact
+   * Scope
+   * Severity (P1–P4)
+4. Create an Incident ticket in the support system.
+5. Assign Communications Lead (CL) and Operations Lead (OL).
+6. Begin structured investigation and mitigation.
+7. Provide periodic customer updates (frequency based on severity).
+8. Escalate internally if required.
+9. Maintain role continuity during shift transitions.
+
+The primary objective is to restore service as quickly as possible.
+
+## 7. Communication During Incidents
+
+Communication cadence depends on severity level:
+
+* **P1 – Critical:** Frequent updates until service stability is restored.
+* **P2 – High:** Regular progress updates during active investigation.
+* **P3 / P4:** Updates aligned with SLA response framework.
+
+Communication occurs through agreed customer channels and is logged in the Support Portal.
+
+## 8. Resolution
+
+An incident is considered resolved when:
+
+* Service functionality is restored, or
+* A verified workaround is implemented, or
+* The issue is mitigated and no longer impacts SLA
+
+The Incident Commander confirms resolution before formal closure.
+
+## 9. Post-Incident Review (Post-Mortem)
+
+For significant incidents, a structured post-incident review is conducted.
+
+This includes:
+
+* Timeline reconstruction
+* Root cause analysis
+* Identification of contributing factors
+* Definition of follow-up actions
+* Preventative recommendations
+
+Follow-up actions are tracked to completion.
+
+The purpose of the post-mortem is continuous improvement — not fault attribution.
+
+## 10. Continuous Improvement
+
+Incident data is used to:
+
+* Improve operational processes
+* Enhance monitoring and alerting
+* Strengthen platform resilience
+* Reduce recurrence risk
+
+Stakater continuously refines its incident response practices to maintain operational excellence.
