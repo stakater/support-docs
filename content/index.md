@@ -74,7 +74,7 @@ To request support, visit:
 
 For guidance on what information to include when opening a ticket, see [**How to Request Support**](./hrs.md).
 
-## ## Frequently Asked Questions
+## Frequently Asked Questions
 
 For common questions regarding:
 

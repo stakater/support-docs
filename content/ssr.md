@@ -18,7 +18,7 @@ Support includes:
 * Upgrade and lifecycle guidance (reactive under Standard, proactive under Premium)
 * Coordination with upstream vendors when required (if related to supported components)
 
-Support is delivered through the structured process defined in the Incident Response Management framework.
+Support is delivered through the structured process defined in the [Incident Response Management Framework](./irm.md).
 
 ## 2. What Is Not Included
 
@@ -115,6 +115,6 @@ Running unsupported or end-of-life versions may limit support eligibility.
 
 ## 8. Commercial Terms & Service Credits
 
-Support response times are governed by the Support Plans & SLA section.
+Support response times are governed by the [Support Plans & SLA](./plans.md) section.
 
 Service credits, if applicable, are only granted if explicitly defined in a commercial agreement.

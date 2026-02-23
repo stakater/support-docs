@@ -49,7 +49,7 @@ All support requests must be submitted via the **Support Portal** to ensure prop
 | --------------------------------- | -------- | ------- |
 | Support Portal                    | ✔        | ✔       |
 | Slack (shared channel, if agreed) | –        | ✔       |
-| Phone (P1 incidents)              | –        | ✔       |
+| Phone (P1 incidents, if agreed)   | –        | ✔       |
 
 Slack and phone access under Premium must be agreed in advance.
 
